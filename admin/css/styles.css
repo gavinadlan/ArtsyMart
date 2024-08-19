@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+/* Header styles */
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.list-group a:hover {
+  background-color: #1e2124;
+  color: #ffffff;
+}
+
+.sidebar .list-group-item {
+  background-color: #343a40;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.sidebar .list-group-item.active {
+  background-color: #1e2124;
+  border-color: #ffffff;
+}
+
+/* Main content styles */
+.main-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.table {
+  background-color: #ffffff;
+}
+
+.table thead {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}

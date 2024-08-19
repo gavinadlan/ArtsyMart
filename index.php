@@ -33,7 +33,7 @@ if (isset($_GET['add'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TrendZ | Online Store for Latest Trends</title>
+  <title>ArtsyMart | Online Store for Arts</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -52,7 +52,7 @@ if (isset($_GET['add'])) {
     <?php include('./inc/carousel.php'); ?>
 
     <div class="container mt-5 my-section">
-      <h3 class="py-4">Popular Products</h3>
+      <h3 class="py-4">Recommend</h3>
       <div class="msg"><?php echo $msg; ?></div>
       <div class="row">
 
@@ -86,13 +86,13 @@ if (isset($_GET['add'])) {
 
 
     <div class="container mt-5 my-section">
-      <h3 class="py-4">Mens</h3>
+      <h3 class="py-4">Nature</h3>
       <div class="row">
 
         <?php
 
         // FECTH PRODUCTS
-        $sql = "SELECT * from products WHERE category='Mens' ORDER BY RAND() LIMIT 4";
+        $sql = "SELECT * from products WHERE category='Nature' ORDER BY RAND() LIMIT 4";
         $query = $db->prepare($sql);
         $query->execute();
         $results = $query->fetchAll(PDO::FETCH_OBJ);
@@ -120,13 +120,13 @@ if (isset($_GET['add'])) {
 
 
     <div class="container mt-5 my-section">
-      <h3 class="py-4">Womens</h3>
+      <h3 class="py-4">Abstrac</h3>
       <div class="row">
 
       <?php
 
         // FECTH PRODUCTS
-        $sql = "SELECT * from products WHERE category='Women' ORDER BY RAND() LIMIT 4";
+        $sql = "SELECT * from products WHERE category='Abstrac' ORDER BY RAND() LIMIT 4";
         $query = $db->prepare($sql);
         $query->execute();
         $results = $query->fetchAll(PDO::FETCH_OBJ);

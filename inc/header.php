@@ -1,7 +1,7 @@
 <div class="container-fluid bg-dark">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark p-4">
-            <a class="navbar-brand mr-5 font-weight-bold" href="index.php">TrendZ</a>
+            <a class="navbar-brand mr-5 font-weight-bold" href="index.php">Artsy</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -12,13 +12,13 @@
                         <a class="nav-link font-weight-bold" href="index.php">Home</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="mens.php">Mens</a>
+                        <a class="nav-link font-weight-bold" href="nature.php">Nature</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="women.php">Womens</a>
+                        <a class="nav-link font-weight-bold" href="abstrac.php">Abstrac</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="kids.php">Kids</a>
+                        <a class="nav-link font-weight-bold" href="aesthetic.php">Aesthetic</a>
                     </li>
 
                 </ul>
