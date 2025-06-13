@@ -1,63 +1,61 @@
-# 🖼️ ArtsyMart - Simple Bootstrap & PHP E-Commerce Website
+# 🖼️ ArtsyMart – Simple Bootstrap & PHP E-Commerce Website
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=gavinadlan.ArtsyMart&title=Visitors)
 
-Welcome to **ArtsyMart**, a basic e-commerce platform built with **HTML**, **Bootstrap**, **PHP**, and **MySQL**.  
-It includes essential online store functionality with a clean and modern layout — perfect for beginners.
+ArtsyMart adalah website e-commerce sederhana berbasis **HTML**, **Bootstrap**, **PHP**, dan **MySQL**.  
+Dibuat untuk membantu pemula memahami struktur dan alur kerja toko online dasar dengan tampilan modern.
 
 ---
 
-## 🚀 Features
+## 🚀 Fitur
 
-- 🧑‍💻 User Authentication (Login & Register)
-- 🛍️ Product Listing
-- 🛒 Shopping Cart Management
-- 📦 Delivery Address Page
-- 💳 Checkout System
-- 🗃️ MySQL Database Integration
-
----
-
-## 🖥️ Screenshot
-
-![ArtsyMart Screenshot](sc.png)
+- 🧑‍💻 Login & Register (Autentikasi Pengguna)
+- 🛍️ Daftar Produk
+- 🛒 Manajemen Keranjang Belanja
+- 📦 Halaman Alamat Pengiriman
+- 💳 Sistem Checkout
+- 🗃️ Integrasi Database MySQL
 
 ---
 
-## ⚙️ Tech Stack
+## 🖥️ Tampilan
 
-- **Frontend**: HTML5, CSS3, Bootstrap 4
-- **Backend**: PHP
-- **Database**: MySQL (via MAMP/XAMPP)
+![Screenshot](sc.png)
 
 ---
 
-## 📁 Folder Structure
+## ⚙️ Teknologi
 
-📦 ArtsyMart
-├── img/ # Assets & logos
-├── pages/ # Login, register, cart, checkout, etc.
-├── sc.png # Screenshot preview
-├── config.php # Database connection config
-├── styles.css # Custom styling
-├── index.php # Homepage
-└── README.md
+- Frontend: HTML5, CSS3, Bootstrap 4
+- Backend: PHP
+- Database: MySQL (via XAMPP/MAMP)
 
 ---
 
-## 🛠️ Getting Started
+## 📁 Struktur Proyek (Singkat)
 
-1. **Clone the repository**
+Folder utama: `ArtsyMart/`  
+- `img/` → Aset gambar/logo  
+- `pages/` → Halaman login, register, cart, checkout  
+- `index.php` → Halaman utama  
+- `styles.css` → CSS tambahan  
+- `config.php` → Koneksi ke database  
+- `sc.png` → Screenshot preview
+
+---
+
+## 🛠️ Cara Menjalankan Proyek
+
+1. **Clone repository**
 
    ```bash
    git clone https://github.com/gavinadlan/ArtsyMart.git
 
-   ```
+2. Import database SQL
+Buka phpMyAdmin, buat database baru (misalnya: artsydb), lalu import file .sql yang tersedia (jika ada).
 
-2. Import the SQL database
-   Open phpMyAdmin, create a database (e.g., artsydb) and import the provided .sql file if available.
-
-3. Run using MAMP or XAMPP
-   Place the project folder in your local server directory (htdocs or Sites), then access:
+3. Jalankan menggunakan MAMP atau XAMPP
+Pindahkan folder proyek ke direktori lokal server kamu (htdocs untuk XAMPP atau Sites di Mac).
+Kemudian akses melalui browser:
 
 http://localhost/ArtsyMart
