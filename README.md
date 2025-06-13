@@ -1,18 +1,63 @@
-# Basic-Bootstrap-Php-Ecommerce
+# 🖼️ ArtsyMart - Simple Bootstrap & PHP E-Commerce Website
 
-![𝚅𝚒𝚜𝚒𝚝𝚘𝚛𝚜](https://visitor-badge.laobi.icu/badge?page_id=ajayrandhawa.Basic-Bootstrap-Php-Ecommerce&title=Visitor )
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=gavinadlan.ArtsyMart&title=Visitors)
 
-Basic HTML, BOOTSTRAP, PHP Ecommerce Site. Just Basic Functionality with login, register, product listing, cart management, checkout. It comes with MySql database.
+Welcome to **ArtsyMart**, a basic e-commerce platform built with **HTML**, **Bootstrap**, **PHP**, and **MySQL**.  
+It includes essential online store functionality with a clean and modern layout — perfect for beginners.
 
-## Features: 
+---
 
-1. Login
-2. Register
-3. Product Listing
-4. Cart Manage
-5. Delivery Address Page
-6. CheckOut
+## 🚀 Features
 
-<img src="sc.png" />
+- 🧑‍💻 User Authentication (Login & Register)
+- 🛍️ Product Listing
+- 🛒 Shopping Cart Management
+- 📦 Delivery Address Page
+- 💳 Checkout System
+- 🗃️ MySQL Database Integration
 
-Feel Free To Contribute :)
+---
+
+## 🖥️ Screenshot
+
+![ArtsyMart Screenshot](sc.png)
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, Bootstrap 4
+- **Backend**: PHP
+- **Database**: MySQL (via MAMP/XAMPP)
+
+---
+
+## 📁 Folder Structure
+
+📦 ArtsyMart
+├── img/ # Assets & logos
+├── pages/ # Login, register, cart, checkout, etc.
+├── sc.png # Screenshot preview
+├── config.php # Database connection config
+├── styles.css # Custom styling
+├── index.php # Homepage
+└── README.md
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/gavinadlan/ArtsyMart.git
+
+   ```
+
+2. Import the SQL database
+   Open phpMyAdmin, create a database (e.g., artsydb) and import the provided .sql file if available.
+
+3. Run using MAMP or XAMPP
+   Place the project folder in your local server directory (htdocs or Sites), then access:
+
+http://localhost/ArtsyMart
