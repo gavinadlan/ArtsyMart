@@ -10,6 +10,6 @@ $params["secure"], $params["httponly"]
 }
 unset($_SESSION['login']);
 unset($_SESSION['user']);
-session_destroy(); // destroy session
+session_destroy(); 
 header("location:index.php"); 
 ?>
